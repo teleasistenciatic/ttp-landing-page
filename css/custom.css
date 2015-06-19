@@ -22,11 +22,28 @@
 	min-height:50px;
 }
 
+.emplea30{
+    text-align: center;
+    width: 100%;
+    /*float:left;*/
+}
+
+.magtel{
+    background-color: #002596;
+    color: white;
+}
+
+ .profesion{
+	display:inline-block;
+	font-size: 25px;
+	margin-left:20px;
+ }
+ 
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
-  /*padding: 8rem 0 7rem;*/
-  text-align: center;
+  text-align: center;  
+  padding: 7rem 0 7rem;  
 }
 .section-heading,
 .section-description {
@@ -41,10 +58,14 @@
 .phone {
   position: relative;
   max-width: 80%;
-  margin: 3rem auto -12rem;
 }
 .phone + .phone {
   display: none;
+}
+
+.logo{
+	width:100%;
+	max-width:300px;
 }
 
 /* Values
@@ -85,95 +106,154 @@
   margin-bottom: 4rem;
 }
 
+/* Financiado
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.financiado {
+  background-image: url('../images/financiado-bg.jpg');
+  background-size: cover;
+
+}
+
+.galeria{
+  background-color: #c5f9eb;
+}
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer {
-	padding-top: 40px;
-	min-height: 50px;
-	text-align: center;
+        text-align: center;
 }
 
 /* Bigger than 550 */
 @media (min-width: 550px) {
-  .section {
-    /*padding: 12rem 0 11rem;*/
-  }
+
   .hero {
-    padding-bottom: 12rem;
     text-align: left;
-    height: 165px;
   }
-  .phone {
+  
+   .phone {
     position: absolute;
-    top: -7rem;
+    top: -1rem;
     right: 3rem;
-    max-height: 362px;
-    z-index: 3;
+	z-index: 3;	    
   }
   .phone + .phone {
-    top: -6rem;
-    display: block;
-    max-width: 73.8%;
-    right: 0;
-    z-index: 2;
-    max-height: 338px;
+    top: 1rem;
+	right: 0;
+	z-index: 2;
+    display: block;	
+    max-width: 73.8%;    
   }
+  
   .hero-heading {
     font-size: 2.4rem;
   }
+  
+  /***   ***/
+  .image-icon {	
+	width:100%;
+	min-width: initial;
+	min-height:initial;
+  }
+
+  .image-icon img{
+	width:100%;
+	max-width:200px;
+	max-height:200px;
+  }
+  
+  .value-heading{
+	font-size:3.0rem;
+  }
+  
+  .logo{
+	width:100%;
+	max-width:350px;
+  }
+  
+  .logogoogle{
+	position:relative;
+  }
+
+  .u-max-full-width.googleplay{
+     position:absolute;
+  }
+  
+  .h1cabecera{ 
+	 font-size:2.8rem;  
+  }
+  
+  .h3cabecera{
+     font-size:1.8rem;  
+  }
+  
 }
 
 /* Bigger than 750 */
 @media (min-width: 750px) {
-  .hero {
-    height: 190px;
-  }
-  .hero-heading {
-    font-size: 2.6rem;
-  }
-  .section {
-    padding: 14rem 0 15rem;
-  }
-  .hero {
-    padding: 16rem 0 14rem;
-  }
+  .hero{
+	 padding: 9rem 0 9rem;
+  } 
+
+
   .section-description {
     max-width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
-  .phone {
-    top: -14rem;
-    right: 5rem;
-    max-height: 510px;
-  }
-  .phone + .phone {
-    top: -12rem;
-    max-height: 472px;
-  }
+
   .categories {
     padding: 15rem 0 8rem;
   }
+  
+  /****   *****/
+  
+  .value-heading{
+	font-size:3.6rem;
+  }
+  
+  .values{
+    padding:10rem 0 10rem;
+  }
+  
+  .h1cabecera{ 
+	 font-size:3.8rem;  
+  }
+  
+  .h3cabecera{
+     font-size:2.8rem;  
+  }
+  
+  
 }
 
 /* Bigger than 1000 */
 @media (min-width: 1000px) {
-  .section {
-    padding: 20rem 0 19rem;
-  }
+ 
   .hero {
-    padding: 22rem 0;
+    padding: 10rem 0 10rem;
   }
   .hero-heading {
     font-size: 3.0rem;
   }
   .phone {
-    top: -16rem;
+   
     max-height: 615px;
   }
   .phone + .phone {
-    top: -14rem;
+ 
     max-height: 570px;
   }
-}
+  
+   .h1cabecera{ 
+	 font-size:4.8rem;  
+  }
+  
+  .h3cabecera{
+     font-size:3.8rem;  
+  }
+  
+   .values{
+    padding:15rem 0 15rem;
+  }
+} 

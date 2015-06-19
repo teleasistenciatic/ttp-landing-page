@@ -1,0 +1,21 @@
+/*** estilos para textos ocultos de Funciones de la app ***/
+
+.texto_oculto{
+	color: white;
+	font-size: 12px;
+	text-align:justify;
+	
+	overflow:hidden;
+	margin:0px;
+	height:0px;	
+}
+
+.texto_oculto_centros{
+	color: black;
+	font-size: 18px;
+	text-align:center;
+	
+	overflow:hidden;
+	margin:0px;
+	height:0px;	
+}
